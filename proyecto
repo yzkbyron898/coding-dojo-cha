@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minuta Octubre 2024</title>
+    <link rel="stylesheet" href="flaitiano.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Menú de Almuerzo</h2>
+    
+        <label for="dish">Seleccione un plato principal:</label>
+        <select id="dish">
+            <option value="Pollo al horno">Pollo al horno</option>
+            <option value="Pasta con salsa de tomate">Pasta con salsa de tomate</option>
+            <option value="Sopa de verduras">Sopa de verduras</option>
+        </select>
+    
+        <label for="side">Seleccione un acompañamiento:</label>
+        <select id="side">
+            <option value="Ensalada">Ensalada</option>
+            <option value="Papas fritas">Papas fritas</option>
+            <option value="Arroz">Arroz</option>
+        </select>
+    
+        <label for="drink">Seleccione una bebida:</label>
+        <select id="drink">
+            <option value="Agua">Agua</option>
+            <option value="Jugo de naranja">Jugo de naranja</option>
+            <option value="Refresco">Refresco</option>
+        </select>
+    
+        <button onclick="showMenu()">Ver Menú</button>
+    
+        <div class="menu-display" id="menuDisplay"></div>
+    </div>
+    
+    <script src="proyecto.js"></script>
+
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1>Almuerzo Octubre 2024</h1>
+        <table>
+            <thead>
+                <img src="C:\Users\cuarto medio\Desktop\futuros\images.jpg" alt="Descripción de la imagen" style="max-width: 100%; height: auto;">
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <strong>1</strong><br>
+                        <a href="">Desayuno</a> Pan integral con mermelada, té<br>
+                        <strong>Almuerzo:</strong> Agua, ensalada betarraga, lentejas guisadas, naranja
+                    </td>
+                    <td>
+                        <strong>2</strong><br>
+                        <strong>Desayuno:</strong> Leche líquida sabor chocolate, pan blanco con huevo revuelto<br>
+                        <strong>Almuerzo:</strong> Agua, croqueta de jurel, ensalada natural, fideos, pera
+                    </td>
+                    <td>
+                        <strong>3</strong><br>
+                        <strong>Desayuno:</strong> Leche líquida sabor vainilla, pan integral con queso<br>
+                        <strong>Almuerzo:</strong> Agua, ensalada pepino, arroz, lomito de cerdo, yogur
+                    </td>
+                    <td>
+                        <strong>4</strong><br>
+                        <strong>Desayuno:</strong> Café, pan integral con miel<br>
+                        <strong>Almuerzo:</strong> Agua, puré de papas, pescado
+                    </td>
+                    <td>
+                        <strong>5</strong><br>
+                        <strong>Desayuno:</strong> Leche, pan blanco, huevo revuelto<br>
+                        <strong>Almuerzo:</strong> Papas cocidas, ensalada tomate, manzana
+                    </td>
+                    <td class="empty"><strong>6</strong><br>Descanso</td>
+                    <td class="empty"><strong>7</strong><br>Descanso</td>
+                </tr>
+            </tr>
+                <td>
+                    <strong>8</strong><br>
+                    <strong>Desayuno:</strong> Cafe, pan tostado, huevo<br>
+                    <strong>Almuerzo:</strong> Papas fritas, ensalada lechuga, trozitos de sandia
+                </td>
+                <td>
+                    <strong>9</strong><br>
+                    <strong>Desayuno:</strong> yogurt, cereal o avena<br>
+                    <strong>Almuerzo:</strong> croqueta de pescado, ensalada de palmitos, pera
+                </td>
+                <td>
+                    <strong>10</strong><br>
+                    <strong>Desayuno:</strong> leche chocolate, barrita de cereal, <br>
+                    <strong>Almuerzo:</strong> porotos guisados, ensalada betarraga, manzana
+                </td>
+                <td>
+                    <strong>11</strong><br>
+                    <strong>Desayuno:</strong> cafe descafeinado, pan integral con miel<br>
+                    <strong>Almuerzo:</strong> carbonada de ave, ensalada pepino, conserva en cubo al jugo
+                </td>
+                <td>
+                    <strong>12</strong><br>
+                    <strong>Desayuno:</strong> avena leche blanca liquida<br>
+                    <strong>Almuerzo:</strong> arroz graneado con budin de atun, ensalada pepino, pera
+                </td>
+                <td class="empty"><strong>13</strong><br>Descanso</td>
+                <td class="empty"><strong>14</strong><br>Descanso</td>
+            </tr>
+        </tr>
+            <td>
+                <strong>15</strong><br>
+                <strong>Desayuno:</strong> granola con frutos secos,leche blanca liquida<br>
+                <strong>Almuerzo:</strong> arroz graneado con croqueta de jurel, ensalada repollo + limon, manzana
+            </td>
+            <td>
+                <strong>16</strong><br>
+                <strong>Desayuno:</strong> barra de cereal,bebida lactea individual<br>
+                <strong>Almuerzo:</strong> sandwich doble queso con hamburguesa, ensalada lechuga, mandarina
+            </td>
+            <td>
+                <strong>17</strong><br>
+                <strong>Desayuno:</strong> leche liquida sabor frutilla,pan integral con huevo revuelto<br>
+                <strong>Almuerzo:</strong> lentejas guisadas, ensalada pepino, naranja
+            </td>
+            <td>
+                <strong>18</strong><br>
+                <strong>Desayuno:</strong> cafe descafeinado, pan blanco con tomate<br>
+                <strong>Almuerzo:</strong> porotos a la chilena, ensalada tomate, yogurt sabor platano 
+            </td>
+            <td>
+                <strong>19</strong><br>
+                <strong>Desayuno:</strong> granola con frutos secos, leche blanca liquida<br>
+                <strong>Almuerzo:</strong> apanados de merluza con arroz graneado, ensalada lechuga, kiwi
+            </td>
+            <td class="empty"><strong>20</strong><br>Descanso</td>
+            <td class="empty"><strong>21</strong><br>Descanso</td>
+        </tr>
+    </tr>
+        <td>
+            <strong>22</strong><br>
+            <strong>Desayuno:</strong> pizza hawaiana, bebida<br>
+            <strong>Almuerzo:</strong> ensalada lechuga, kiwi
+        </td>
+        <td>
+            <strong>23</strong><br>
+            <strong>Desayuno:</strong> leche liquida sabor frutilla,pan integral con huevo revuelto<br>
+            <strong>Almuerzo:</strong> fideos con filete de pescado, ensalada tomate, pera
+        </td>
+        <td>
+            <strong>24</strong><br>
+            <strong>Desayuno:</strong> cafe descafeinado,pan integral con mermelada de damazco<br>
+            <strong>Almuerzo:</strong> filete de pescado al limon, gelatina con yogurt, kiwi
+        </td>
+        <td>
+            <strong>25</strong><br>
+            <strong>Desayuno:</strong> barra de cereal, frutos secos<br>
+            <strong>Almuerzo:</strong> huevo revuelto con papas asadas, ensalada lechuga
+        </td>
+        <td>
+            <strong>26</strong><br>
+            <strong>Desayuno:</strong> granola con frutos secos, leche blanca liquida<br>
+            <strong>Almuerzo:</strong> apanados de merluza con arroz graneado, ensalada lechuga, kiwi
+        </td>
+        <td class="empty"><strong>27</strong><br>Descanso</td>
+        <td class="empty"><strong>28</strong><br>Descanso</td>
+    </tr>
+    <td>
+        <strong>29</strong><br>
+        <strong>Desayuno:</strong> leche liquida sabor vainilla,pan integral con mermelada frutilla<br>
+        <strong>Almuerzo:</strong> charquican de verduras con huevo, ensalada betarraga, manzana
+    </td>
+    <td>
+        <strong>30</strong><br>
+        <strong>Desayuno:</strong> leche liquida sabor chocolate<br>
+        <strong>Almuerzo:</strong> arroz graneado con huevo revuelto, ensalada betarraga, kiwi
+    </td>
+    <td>
+        <strong>31</strong><br>
+        <strong>Desayuno:</strong> frutos secos con leche liquida sabor vainilla<br>
+        <strong>Almuerzo:</strong> lazaña, ensalada tomate, jugo sabor durazno
+    </td>
+    <td>
+        <strong>01</strong><br>
+    </td>
+    <td>
+        <strong>02</strong><br>
+    </td>
+    <td class="empty"><strong>03</strong><br>Descanso</td>
+    <td class="empty"><strong>04</strong><br>Descanso</td>
+                <!-- Agrega más filas para los otros días del mes -->
+                 
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>     
+
+
+
+
+
+
+
+
+ CCS: * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: blue;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5282854;
+    padding: 20px;
+}
+
+.beta {
+    width: 30%;
+    margin: 0 auto;
+}
+    
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #478570;
+    color: rgb(19, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+tbody td {
+    border: 1px solid #0f12c5;
+    padding: 10px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+tbody td strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #0400ff;
+}
+
+tbody td.empty {
+    background-color: #f06969;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0c65eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #18692a;
+}
+
+.menu-display {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+PYTHON:
+
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+
+
+
+    JS:
+
+
+    function showMenu() {
+    const dish = document.getElementById('dish').value;
+    const side = document.getElementById('side').value;
+    const drink = document.getElementById('drink').value;
+
+    const menu = `
+        <h3>Tu menú seleccionado:</h3>
+        <p><strong>Plato principal:</strong> ${dish}</p>
+        <p><strong>Acompañamiento:</strong> ${side}</p>
+        <p><strong>Bebida:</strong> ${drink}</p>
+    `;
+
+    document.getElementById('menuDisplay').innerHTML = menu;
